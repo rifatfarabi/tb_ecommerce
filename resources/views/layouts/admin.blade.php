@@ -26,8 +26,10 @@
 </head>
 
 <body class="c-app">
-    
-    <x-admin-sidebar></x-admin-sidebar>
+
+    @include('partials.admin-menu')
+
+    {{-- <x-admin-sidebar></x-admin-sidebar> --}}
 
     <div class="c-wrapper">
         <header class="c-header c-header-fixed px-3">
@@ -62,14 +64,14 @@
         <div class="c-body">
             <main class="c-main">
               <div class="container-fluid">
-                
+
                 @yield('content')
 
               </div>
-              
 
-                {{-- <div class="container-fluid">
-                    @if(session('message'))
+
+                <div class="container-fluid">
+                    {{-- @if(session('message'))
                         <div class="row mb-2">
                             <div class="col-lg-12">
                                 <div class="alert alert-success" role="alert">{{ session('message') }}</div>
@@ -84,10 +86,11 @@
                                 @endforeach
                             </ul>
                         </div>
-                    @endif
+                    @endif --}}
+
                     @yield('content')
 
-                </div> --}}
+                </div>
 
 
             </main>
@@ -96,7 +99,7 @@
             </form>
         </div>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -120,15 +123,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
     <script src="{{ asset('js/main.js') }}"></script>
     <script>
-        $(function() {
-  let copyButtonTrans = '{{ trans('global.datatables.copy') }}'
-  let csvButtonTrans = '{{ trans('global.datatables.csv') }}'
-  let excelButtonTrans = '{{ trans('global.datatables.excel') }}'
-  let pdfButtonTrans = '{{ trans('global.datatables.pdf') }}'
-  let printButtonTrans = '{{ trans('global.datatables.print') }}'
-  let colvisButtonTrans = '{{ trans('global.datatables.colvis') }}'
-  let selectAllButtonTrans = '{{ trans('global.select_all') }}'
-  let selectNoneButtonTrans = '{{ trans('global.deselect_all') }}'
+//         $(function() {
+//   let copyButtonTrans = '{{ trans('global.datatables.copy') }}'
+//   let csvButtonTrans = '{{ trans('global.datatables.csv') }}'
+//   let excelButtonTrans = '{{ trans('global.datatables.excel') }}'
+//   let pdfButtonTrans = '{{ trans('global.datatables.pdf') }}'
+//   let printButtonTrans = '{{ trans('global.datatables.print') }}'
+//   let colvisButtonTrans = '{{ trans('global.datatables.colvis') }}'
+//   let selectAllButtonTrans = '{{ trans('global.select_all') }}'
+//   let selectNoneButtonTrans = '{{ trans('global.deselect_all') }}'
 
   let languages = {
     'en': 'https://cdn.datatables.net/plug-ins/1.10.19/i18n/English.json'

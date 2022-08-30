@@ -18,14 +18,14 @@
             </a>
         </li>
 
-        <li class="c-sidebar-nav-item">
+        {{-- <li class="c-sidebar-nav-item">
             <a href="{{ route('accounts.index') }}" class="c-sidebar-nav-link text-light" >
                 <i class="c-sidebar-nav-icon fas fa-fw fa-calculator">
 
                 </i>
                 {{ __("Account") }}
             </a>
-        </li>
+        </li> --}}
 
 
 
@@ -38,36 +38,36 @@
             </a>
             <ul class="c-sidebar-nav-dropdown-items">
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route("permissions.index") }}" class="c-sidebar-nav-link">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("Permissions") }}
                         </a>
-                    </li>
+                    </li> --}}
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route("roles.index") }}" class="c-sidebar-nav-link ">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("Roles") }}
                         </a>
-                    </li>
+                    </li> --}}
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route("users.index") }}" class="c-sidebar-nav-link">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("All Users") }}
                         </a>
-                    </li>
+                    </li> --}}
 
             </ul>
         </li>
-
+{{--
         <li class="c-sidebar-nav-item">
             <a href="{{ route('quotations.index') }}" class="c-sidebar-nav-link text-light" >
                 <i class="c-sidebar-nav-icon fas fa-fw fa-hand-holding-usd">
@@ -75,7 +75,7 @@
                 </i>
                 {{ __("Quotation") }}
             </a>
-        </li>
+        </li> --}}
 
         {{-- <li class="c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">
@@ -137,7 +137,7 @@
         </li> --}}
 
 
-        <li class="c-sidebar-nav-dropdown">
+        {{-- <li class="c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">
                 <i class="fa-fw fas fa-building c-sidebar-nav-icon">
 
@@ -162,9 +162,9 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> --}}
 
-        <li class="c-sidebar-nav-dropdown">
+        {{-- <li class="c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">
                 <i class="fa-fw fas fa-id-badge c-sidebar-nav-icon">
 
@@ -189,10 +189,10 @@
                     </a>
                 </li> --}}
             </ul>
-        </li>
+        </li> --}}
 
 
-            <li class="c-sidebar-nav-dropdown">
+            {{-- <li class="c-sidebar-nav-dropdown">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="fa-fw fas fa-shopping-basket c-sidebar-nav-icon">
 
@@ -273,21 +273,21 @@
                         </li> --}}
                     {{-- @endcan --}}
 
-                        <li class="c-sidebar-nav-item">
+                        {{-- <li class="c-sidebar-nav-item">
                             <a href="{{ route('reviews.index') }}" class="c-sidebar-nav-link text-light" >
                                 <i class="c-sidebar-nav-icon far fa-fw fa-circle">
 
                                 </i>
                                 {{ __("Reviews and Ratings") }}
                             </a>
-                        </li>
+                        </li> --}}
 
                 </ul>
-            </li>
+            </li> --}}
 
 
 
-            <li class="c-sidebar-nav-dropdown">
+            {{-- <li class="c-sidebar-nav-dropdown">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="fa-fw fas fa-list-alt c-sidebar-nav-icon">
 
@@ -328,7 +328,7 @@
                         </a>
                     </li> --}}
                 </ul>
-            </li>
+            </li> --}}
 
 
         <li class="c-sidebar-nav-dropdown">
@@ -355,38 +355,38 @@
                         {{ __("Offers") }}
                     </a>
                 </li> --}}
-                <li class="c-sidebar-nav-item">
+                {{-- <li class="c-sidebar-nav-item">
                     <a href="{{ route('banners.index') }}" class="c-sidebar-nav-link ">
                         <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                         </i>
                         {{ __("Banners") }}
                     </a>
-                </li>
-                <li class="c-sidebar-nav-item">
+                </li> --}}
+                {{-- <li class="c-sidebar-nav-item">
                     <a href="{{ route('sliders.index') }}" class="c-sidebar-nav-link ">
                         <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                         </i>
                         {{ __("Sliders") }}
                     </a>
-                </li>
-                <li class="c-sidebar-nav-item">
+                </li> --}}
+                {{-- <li class="c-sidebar-nav-item">
                     <a href="{{ route('subscribers.index') }}" class="c-sidebar-nav-link ">
                         <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                         </i>
                         {{ __("Subscribers") }}
                     </a>
-                </li>
-                <li class="c-sidebar-nav-item">
+                </li> --}}
+                {{-- <li class="c-sidebar-nav-item">
                     <a href="{{ route("contacts.index") }}" class="c-sidebar-nav-link">
                         <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                         </i>
                         {{ __("Contacts") }}
                     </a>
-                </li>
+                </li> --}}
                 {{-- <li class="c-sidebar-nav-item">
                     <a href="{{ route('email-marketing.index') }}" class="c-sidebar-nav-link ">
                         <i class="fa-fw far fa-circle c-sidebar-nav-icon">
@@ -407,7 +407,7 @@
         </li>
 
 
-       <li class="c-sidebar-nav-dropdown">
+       {{-- <li class="c-sidebar-nav-dropdown">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="fa-fw fas fa-fighter-jet c-sidebar-nav-icon">
 
@@ -448,7 +448,7 @@
                         </li>
 
                 </ul>
-            </li>
+            </li> --}}
 
 
         {{-- <li class="c-sidebar-nav-dropdown">
@@ -510,7 +510,7 @@
             </a>
         </li> --}}
 
-        <li class="c-sidebar-nav-dropdown">
+        {{-- <li class="c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">
                 <i class="fa-fw fas fa-money-check-alt c-sidebar-nav-icon">
 
@@ -537,19 +537,19 @@
                         </a>
                     </li> --}}
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route('payment-methods.index') }}" class="c-sidebar-nav-link">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("Payment Methods") }}
                         </a>
-                    </li>
+                    </li> --}}
 
             </ul>
-        </li>
+        </li> --}}
 
-        <li class="c-sidebar-nav-dropdown">
+        {{-- <li class="c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">
                 <i class="fa-fw fas fa-bullhorn c-sidebar-nav-icon">
 
@@ -587,7 +587,7 @@
                     </a>
                 </li> --}}
             </ul>
-        </li>
+        </li> --}}
 
         {{--
         <li class="c-sidebar-nav-item">
@@ -695,32 +695,32 @@
             </a>
             <ul class="c-sidebar-nav-dropdown-items">
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route('countries.index') }}" class="c-sidebar-nav-link">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("Countries") }}
                         </a>
-                    </li>
+                    </li> --}}
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route('states.index') }}" class="c-sidebar-nav-link ">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("States") }}
                         </a>
-                    </li>
+                    </li> --}}
 
-                    <li class="c-sidebar-nav-item">
+                    {{-- <li class="c-sidebar-nav-item">
                         <a href="{{ route('cities.index') }}" class="c-sidebar-nav-link ">
                             <i class="fa-fw far fa-circle c-sidebar-nav-icon">
 
                             </i>
                             {{ __("Cities") }}
                         </a>
-                    </li>
+                    </li> --}}
 
                 {{-- <li class="c-sidebar-nav-item">
                     <a href="" class="c-sidebar-nav-link ">
@@ -733,7 +733,7 @@
             </ul>
         </li>
 
-        <li class="c-sidebar-nav-dropdown">
+        {{-- <li class="c-sidebar-nav-dropdown">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">
                 <i class="fa-fw fas fa-window-restore c-sidebar-nav-icon">
 
@@ -771,9 +771,9 @@
                 </li>
 
             </ul>
-        </li>
+        </li> --}}
 
-        <li class="c-sidebar-nav-dropdown">
+        {{-- <li class="c-sidebar-nav-dropdown">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="fa-fw fas fa-cogs c-sidebar-nav-icon">
 
@@ -886,16 +886,16 @@
                     </li> --}}
 
                 </ul>
-        </li>
+        </li> --}}
 
-        <li class="c-sidebar-nav-item">
+        {{-- <li class="c-sidebar-nav-item">
             <a href="{{ route('profile.edit',  Auth::user()->id) }}" class="c-sidebar-nav-link text-light" >
                 <i class="c-sidebar-nav-icon fas fa-fw fa-user">
 
                 </i>
                 {{ __("Profile") }}
             </a>
-        </li>
+        </li> --}}
 
         <li class="c-sidebar-nav-item">
 

@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -27,7 +28,7 @@ class UserTableSeeder extends Seeder
             'email' => 'customer@customer.com',
             'password' => \Hash::make('password') // password
          ]
-
         ];
+        User::insert($users);
     }
 }
