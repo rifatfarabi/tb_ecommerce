@@ -27,7 +27,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    // protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
      * Create a new controller instance.
@@ -43,10 +43,14 @@ class LoginController extends Controller
         return view('auth.admin-login');
     }
 
+    public function showCustomerLogin(){
+        return view('auth.customer-login');
+    }
+
     public function redirectTo(){
-        if(Auth::user()->user_type == 'Admin'){
+        if(Auth::user()->user_type == 'admin'){
             return 'admin/dashboard';
-        }elseif(Auth::user()->user_type == 'Customer'){
+        }elseif(Auth::user()->user_type == 'customer'){
             return 'customer/dashboard';
         }
     }

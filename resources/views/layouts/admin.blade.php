@@ -70,8 +70,8 @@
               </div>
 
 
-                <div class="container-fluid">
-                    {{-- @if(session('message'))
+                {{-- <div class="container-fluid">
+                    @if(session('message'))
                         <div class="row mb-2">
                             <div class="col-lg-12">
                                 <div class="alert alert-success" role="alert">{{ session('message') }}</div>
@@ -86,11 +86,11 @@
                                 @endforeach
                             </ul>
                         </div>
-                    @endif --}}
+                    @endif
 
                     @yield('content')
 
-                </div>
+                </div> --}}
 
 
             </main>
